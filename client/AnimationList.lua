@@ -10337,6 +10337,107 @@ RP.Emotes = {
 
 --- PROP EMOTES GO HERE. CURRENTLY SUPPORTS UP TO ONE OR TWO PROPS  ---
 RP.PropEmotes = {
+['crutch'] = {
+        'missbigscore2aleadinout@bs_2a_2b_int',
+        'lester_base_idle',
+        'Crutch',
+        AnimationOptions = {
+            Prop = 'v_med_crutch01',
+            PropBone = 28422,
+            PropPlacement = {
+                0.0,
+                0.0,
+                -0.9,
+                0.0,
+                0.0,
+                0.0
+            },
+            PtfxWait = 200,
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["ems1"] = {
+        "anim@amb@clubhouse@tutorial@bkr_tut_ig3@",
+        "machinic_loop_mechandplayer",
+        "EMS Inspect Patient Ground",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["ems2"] = {
+        "mini@repair",
+        "fixing_a_ped",
+        "EMS Inspect Patient Bed",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["ems3"] = {
+        "amb@prop_human_movie_bulb@idle_a",
+        "idle_b",
+        "EMS Adjust IV",
+        AnimationOptions = {
+            EmoteLoop = true
+        }
+    },
+    ["ems4"] = {
+        "anim@heists@humane_labs@finale@keycards",
+        "ped_a_enter_loop",
+        "EMS Use syringe",
+        AnimationOptions = {
+            Prop = "prop_syringe_01",
+            PropBone = 18905,
+            PropPlacement = {
+                0.12,
+                0.07,
+                -0.0,
+                -80.0,
+                0.0,
+                -180.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+     },
+     ["ems5"] = {
+        "move_weapon@jerrycan@generic",
+        "idle",
+        "EMS Medic Bag",
+        AnimationOptions = {
+            Prop = "xm_prop_x17_bag_med_01a",
+            PropBone = 57005,
+            PropPlacement = {
+                0.3900,
+                -0.0600,
+                -0.0600,
+                -100.00,
+                -180.00,
+                -78.00
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+     },
+    ["ems6"] = {
+        "move_weapon@jerrycan@generic",
+        "idle",
+        "EMS Medic Box",
+        AnimationOptions = {
+            Prop = "xm_prop_smug_crate_s_medical",
+            PropBone = 28422,
+            PropPlacement = {
+                0.2500,
+                0.0200,
+               -0.0100,
+               90.0000,
+                0.0000,
+              -81.9999
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
     ["umbrella"] = {
         "amb@world_human_drinking@coffee@male@base",
         "base",
@@ -10462,6 +10563,196 @@ RP.PropEmotes = {
         "Box",
         AnimationOptions = {
             Prop = "hei_prop_heist_box",
+            PropBone = 60309,
+            PropPlacement = {
+                0.025,
+                0.08,
+                0.255,
+                -145.0,
+                290.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["7up"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "7up Drink",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_7up001",
+            PropBone = 60309,
+            PropPlacement = {
+                -0.5,
+                0.6,
+                -0.1,
+                20.0,
+                -50.0,
+                50.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["cola"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Coca Cola Drink Pack",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_cocacola001",
+            PropBone = 60309,
+            PropPlacement = {
+                0.025,
+                0.08,
+                0.255,
+                -145.0,
+                290.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["colazero"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Coca Cola Zero Drink",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_colazero001",
+            PropBone = 60309,
+            PropPlacement = {
+                0.025,
+                0.08,
+                0.255,
+                -145.0,
+                290.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["drpepper"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Dr Pepper Zero Drink",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_drpepper001",
+            PropBone = 60309,
+            PropPlacement = {
+                0.025,
+                0.08,
+                0.255,
+                -145.0,
+                290.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["fanta"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Fanta Drink",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_fanta001",
+            PropBone = 60309,
+            PropPlacement = {
+                0.025,
+                0.08,
+                0.255,
+                -145.0,
+                290.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["lipton"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Lipton Iced Tea Drink",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_lipton001",
+            PropBone = 60309,
+            PropPlacement = {
+                0.025,
+                0.08,
+                0.255,
+                -145.0,
+                290.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["mtndew"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Mountain Dew Drink",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_mtndew001",
+            PropBone = 60309,
+            PropPlacement = {
+                0.025,
+                0.08,
+                0.255,
+                -145.0,
+                290.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["pepsi"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Pepsi Drink",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_pepsi001",
+            PropBone = 60309,
+            PropPlacement = {
+                0.025,
+                0.08,
+                0.255,
+                -145.0,
+                290.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["pepsimax"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Pepsi Max Drink",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_pepsimax001",
+            PropBone = 60309,
+            PropPlacement = {
+                0.025,
+                0.08,
+                0.255,
+                -145.0,
+                290.0,
+                0.0
+            },
+            EmoteLoop = true,
+            EmoteMoving = true
+        }
+    },
+    ["sprite"] = { -- bzzz props
+        "amb@world_human_drinking@coffee@male@idle_a",
+        "idle_c",
+        "Sprite Max Drink",
+        AnimationOptions = {
+            Prop = "bzzz_drinkpack_sprite001",
             PropBone = 60309,
             PropPlacement = {
                 0.025,
@@ -12159,6 +12450,42 @@ RP.PropEmotes = {
             EmoteMoving = true
         }
     },
+    ["pie1"] = { --- Custom Prop by Bzzzi
+        "mp_player_inteat@burger",
+        "mp_player_int_eat_burger",
+        "Pie 1",
+        AnimationOptions = {
+            Prop = 'bzzz_foodpack_pie001',
+            PropBone = 18905,
+            PropPlacement = {
+                0.15,
+                0.03,
+                0.03,
+                -42.0,
+                -36.0,
+                0.0
+            },
+            EmoteMoving = true
+        }
+    },
+    ["pie2"] = { --- Custom Prop by Bzzzi
+        "mp_player_inteat@burger",
+        "mp_player_int_eat_burger",
+        "Pie 2",
+        AnimationOptions = {
+            Prop = 'bzzz_foodpack_pie002',
+            PropBone = 18905,
+            PropPlacement = {
+                0.15,
+                0.03,
+                0.03,
+                -42.0,
+                -36.0,
+                0.0
+            },
+            EmoteMoving = true
+        }
+    },
     ["croissant"] = { --- Custom Prop by Bzzzi
         "mp_player_inteat@burger",
         "mp_player_int_eat_burger",
@@ -13735,6 +14062,78 @@ RP.PropEmotes = {
             },
             EmoteMoving = true,
             EmoteLoop = true
+        }
+    },
+    ["milkyway"] = {
+        "mp_player_inteat@burger",
+        "mp_player_int_eat_burger",
+        "Milky Way Bar",
+        AnimationOptions = {
+            Prop = 'bzzz_foodpack_milkyway001',
+            PropBone = 60309,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            },
+            EmoteMoving = true
+        }
+    },
+    ["marsbar"] = {
+        "mp_player_inteat@burger",
+        "mp_player_int_eat_burger",
+        "Mars Bar",
+        AnimationOptions = {
+            Prop = 'bzzz_foodpack_mars001',
+            PropBone = 60309,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            },
+            EmoteMoving = true
+        }
+    },
+    ["snickers"] = {
+        "mp_player_inteat@burger",
+        "mp_player_int_eat_burger",
+        "Snickers Bar",
+        AnimationOptions = {
+            Prop = 'bzzz_foodpack_snickers001',
+            PropBone = 60309,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            },
+            EmoteMoving = true
+        }
+    },
+    ["twix"] = {
+        "mp_player_inteat@burger",
+        "mp_player_int_eat_burger",
+        "Snickers Bar",
+        AnimationOptions = {
+            Prop = 'bzzz_foodpack_twix001',
+            PropBone = 60309,
+            PropPlacement = {
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            },
+            EmoteMoving = true
         }
     },
     ["egobar"] = {
@@ -23857,6 +24256,26 @@ RP.PropEmotes = {
             EmoteLoop = true,
             EmoteMoving = true,
         }
-  }
+  },
+
+  --added 14/01/24
+    ["kawaii_animal_breads"] = { --- Custom Prop by Bzzzi
+        "mp_player_inteat@burger",
+        "mp_player_int_eat_burger",
+        "Animal Bread",
+        AnimationOptions = {
+            Prop = 'kawaii_animal_breads',
+            PropBone = 18905,
+            PropPlacement = {
+                0.16,
+                0.04,
+                0.03,
+                18.0,
+                164.0,
+                -5.0
+            },
+        EmoteMoving = true
+        }
+    },
 
 }
